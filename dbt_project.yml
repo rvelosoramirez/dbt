@@ -43,7 +43,7 @@ models:
   snowflake_workshop:
     staging:
       materialized: view
-      snowflake_warehouse: dbt_wh
+      snowflake_warehouse: COMPUTE_WH
     marts:
       materialized: table
-      snowflake_warehouse: dbt_wh
+      snowflake_warehouse: COMPUTE_WH
