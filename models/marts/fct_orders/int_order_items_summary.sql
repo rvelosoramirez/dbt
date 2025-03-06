@@ -1,3 +1,5 @@
+--Utilizando como una dimension agrupadora "order_key", se generan las agregaciones de la tabla fact.
+
 select 
     order_key,
     sum(extended_price) as gross_item_sales_amount,
